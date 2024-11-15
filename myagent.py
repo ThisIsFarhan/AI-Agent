@@ -41,7 +41,7 @@ def planet_mass(name):
     }
     return f"{name} has a mass of {masses[name]} x 10^24 kg"
 
-def query(prompt, question, max_turns=10):
+def query(prompt):
     action_re = re.compile(r"^Action: (\w+): (.*)$")
     max_turns = int(input("Enter the maximum number of turns: "))
     i = 0
@@ -162,6 +162,6 @@ if __name__ == "__main__":
     # print(res)
 
     #-------------Automating-----------------
-    query(prompt, "what is the combined mass of Earth and Jupiter and Saturn and Venus?")
+    query(prompt)
 
 
