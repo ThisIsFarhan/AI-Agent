@@ -57,4 +57,4 @@ The agent follows a structured workflow:
    ```bash
    conda create --name venv python=3.10.15
    git clone https://github.com/ThisIsFarhan/AI-Agent.git
-   cd ai-agent-from-scratch
+   cd AI-Agent
